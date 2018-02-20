@@ -1,7 +1,7 @@
 <scheme name="Better VS Code" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="bbbbbb" />
@@ -439,12 +439,6 @@
     <option name="GHERKIN_TABLE_PIPE">
       <value>
         <option name="FOREGROUND" value="8ea9ff" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="GROOVY_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="43" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
