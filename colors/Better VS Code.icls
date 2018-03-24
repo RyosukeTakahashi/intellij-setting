@@ -119,6 +119,11 @@
         <option name="FOREGROUND" value="57a64a" />
       </value>
     </option>
+    <option name="CSS.IDENT">
+      <value>
+        <option name="FOREGROUND" value="ce9178" />
+      </value>
+    </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c8c8c8" />
@@ -175,6 +180,11 @@
       <value>
         <option name="FOREGROUND" value="b5cea8" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="68d0fe" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
@@ -278,7 +288,6 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="d69e07" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -40376,7 +40385,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_REVEN_CODD" baseAttributes="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CODD" />
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_REVEN_CODD_ABBREVIATED_TEXT">
       <value>
         <option name="EFFECT_COLOR" value="366d6" />
@@ -51954,7 +51962,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CODD" baseAttributes="MARKDOWN_NAVIGATOR.TABLE_CELL_RODD_CODD" />
     <option name="MARKDOWN_NAVIGATOR.TABLE_HDR_CELL_RODD_CODD_ABBREVIATED_TEXT">
       <value>
         <option name="EFFECT_COLOR" value="366d6" />
@@ -57748,7 +57755,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="MARKDOWN_NAVIGATOR.TABLE_SEP_COLUMN_ODD" baseAttributes="MARKDOWN_NAVIGATOR.TABLE_CELL_REVEN_CODD" />
     <option name="MARKDOWN_NAVIGATOR.UNDERLINE_TEXT_ABBREVIATED_TEXT">
       <value>
         <option name="EFFECT_COLOR" value="23876" />
@@ -58474,6 +58480,16 @@
         <option name="FOREGROUND" value="808080" />
         <option name="EFFECT_COLOR" value="808080" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PHP_TAG">
+      <value>
+        <option name="FOREGROUND" value="3f9cd6" />
+      </value>
+    </option>
+    <option name="PHP_VAR">
+      <value>
+        <option name="FOREGROUND" value="1fd6d5" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME">
