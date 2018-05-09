@@ -6,6 +6,7 @@
       <mapping pattern="prologue" type="PLAIN_TEXT" />
       <mapping pattern="menu_area" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
+      <mapping pattern="yunayoshikokami" type="PLAIN_TEXT" />
       <mapping pattern="env" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
