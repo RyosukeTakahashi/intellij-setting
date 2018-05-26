@@ -1,0 +1,9 @@
+<templateSet group="Python">
+  <template name="rep" value="if user_text in ['$trigger$']:&#10;    reply_text = '$REPLY_TEXT$'&#10;    line_bot_api.reply_message(&#10;        event.reply_token,&#10;        [TextSendMessage(text=reply_text)]&#10;    )&#10;" description="line repley" toReformat="false" toShortenFQNames="true">
+    <variable name="trigger" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REPLY_TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
