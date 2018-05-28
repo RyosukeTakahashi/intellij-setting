@@ -29,12 +29,11 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="repb3" value="    buttons_template = ButtonsTemplate(&#10;        title='$title$', text='お選びください', actions=[&#10;            MessageTemplateAction(label='$label1$', text='$label1$'),&#10;            MessageTemplateAction(label='$label2$', text='$label2$'),&#10;            MessageTemplateAction(label='$label3$', text='$label3$'),&#10;        ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='$alt_txt$', template=buttons_template&#10;    )&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;    &#10;if user_text in ['$label1$']:&#10;&#10;&#10;if user_text in ['$label2$']:&#10;&#10;&#10;if user_text in ['$label3$']:&#10;" toReformat="true" toShortenFQNames="true">
+  <template name="repb3" value="    buttons_template = ButtonsTemplate(&#10;        title='$title$', text='お選びください', actions=[&#10;            MessageTemplateAction(label='$label1$', text='$label1$'),&#10;            MessageTemplateAction(label='$label2$', text='$label2$'),&#10;            MessageTemplateAction(label='$label3$', text='$label3$'),&#10;        ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='$title$', template=buttons_template&#10;    )&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;    &#10;if user_text in ['$label1$']:&#10;&#10;&#10;if user_text in ['$label2$']:&#10;&#10;&#10;if user_text in ['$label3$']:&#10;" toReformat="true" toShortenFQNames="true">
     <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label3" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="alt_txt" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
