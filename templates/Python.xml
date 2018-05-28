@@ -16,8 +16,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="repc" value="if user_text in ['$trigger$']:&#10;    carousel_template = CarouselTemplate(columns=[&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$1$', text='$1$'),&#10;            MessageTemplateAction(label='$2$', text='$2$'),&#10;            MessageTemplateAction(label='$3$', text='$3$'),&#10;        ]),&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$4$', text='$4$'),&#10;            MessageTemplateAction(label='$5$', text='$5$'),&#10;        ]),&#10;    ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='Carousel alt text', template=carousel_template)&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="trigger" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="repc6" value="    carousel_template = CarouselTemplate(columns=[&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$1$', text='$1$'),&#10;            MessageTemplateAction(label='$2$', text='$2$'),&#10;            MessageTemplateAction(label='$3$', text='$3$'),&#10;        ]),&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$4$', text='$4$'),&#10;            MessageTemplateAction(label='$5$', text='$5$'),&#10;            MessageTemplateAction(label='$6$', text='$6$'),&#10;        ]),&#10;    ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='Carousel alt text', template=carousel_template)&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;&#10;if user_text in ['$1$']:&#10;    &#10;&#10;if user_text in ['$2$']:&#10;    &#10;&#10;if user_text in ['$3$']:&#10;    &#10;&#10;if user_text in ['$4$']:&#10;    &#10;&#10;if user_text in ['$5$']:&#10;    &#10;&#10;if user_text in ['$6$']:&#10;    " description="" toReformat="true" toShortenFQNames="true">
     <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
@@ -25,6 +24,7 @@
     <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="6" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
@@ -42,6 +42,18 @@
     <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="repc5" value="    carousel_template = CarouselTemplate(columns=[&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$1$', text='$1$'),&#10;            MessageTemplateAction(label='$2$', text='$2$'),&#10;            MessageTemplateAction(label='$3$', text='$3$'),&#10;        ]),&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$4$', text='$4$'),&#10;            MessageTemplateAction(label='$5$', text='$5$'),&#10;        ]),&#10;    ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='Carousel alt text', template=carousel_template)&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;&#10;if user_text in ['$1$']:&#10;    &#10;&#10;if user_text in ['$2$']:&#10;    &#10;&#10;if user_text in ['$3$']:&#10;    &#10;&#10;if user_text in ['$4$']:&#10;    &#10;&#10;if user_text in ['$5$']:&#10;    &#10;    " toReformat="true" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
