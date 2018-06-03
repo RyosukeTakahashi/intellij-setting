@@ -1,0 +1,71 @@
+<templateSet group="Python">
+  <template name="rep" value="reply_text = '$REPLY_TEXT$'&#10;line_bot_api.reply_message(&#10;    event.reply_token,&#10;    get_text_send_messages(event, reply_text)&#10;)&#10;" description="line repley" toReformat="false" toShortenFQNames="true">
+    <variable name="REPLY_TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="repb" value="if user_text in ['$trigger$']:&#10;    buttons_template = ButtonsTemplate(&#10;        title='$title$', text='お選びください', actions=[&#10;            MessageTemplateAction(label='$label1$', text='$label1$'),&#10;            MessageTemplateAction(label='$label2$', text='$label2$'),&#10;            MessageTemplateAction(label='$label3$', text='$label3$'),&#10;        ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='$alt_txt$', template=buttons_template&#10;    )&#10;    line_bot_api.reply_message(event.reply_token, template_message)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="trigger" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="alt_txt" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="repc6" value="    carousel_template = CarouselTemplate(columns=[&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$1$', text='$1$'),&#10;            MessageTemplateAction(label='$2$', text='$2$'),&#10;            MessageTemplateAction(label='$3$', text='$3$'),&#10;        ]),&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$4$', text='$4$'),&#10;            MessageTemplateAction(label='$5$', text='$5$'),&#10;            MessageTemplateAction(label='$6$', text='$6$'),&#10;        ]),&#10;    ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='Carousel alt text', template=carousel_template)&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;&#10;if user_text in ['$1$']:&#10;    &#10;&#10;if user_text in ['$2$']:&#10;    &#10;&#10;if user_text in ['$3$']:&#10;    &#10;&#10;if user_text in ['$4$']:&#10;    &#10;&#10;if user_text in ['$5$']:&#10;    &#10;&#10;if user_text in ['$6$']:&#10;    " description="" toReformat="true" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="6" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="repb3" value="    buttons_template = ButtonsTemplate(&#10;        title='$title$', text='お選びください', actions=[&#10;            MessageTemplateAction(label='$label1$', text='$label1$'),&#10;            MessageTemplateAction(label='$label2$', text='$label2$'),&#10;            MessageTemplateAction(label='$label3$', text='$label3$'),&#10;        ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='$title$', template=buttons_template&#10;    )&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;    &#10;if user_text in ['$label1$']:&#10;    &#10;&#10;if user_text in ['$label2$']:&#10;    &#10;&#10;if user_text in ['$label3$']:&#10;    &#10;&#10;     " description="" toReformat="true" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="repb2" value="    buttons_template = ButtonsTemplate(&#10;        title='$title$', text='お選びください', actions=[&#10;            MessageTemplateAction(label='$label1$', text='$label1$'),&#10;            MessageTemplateAction(label='$label2$', text='$label2$')&#10;        ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='$title$', template=buttons_template&#10;    )&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;    &#10;if user_text in ['$label1$']:&#10;&#10;&#10;if user_text in ['$label2$']:&#10;&#10;&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="repc5" value="    carousel_template = CarouselTemplate(columns=[&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$1$', text='$1$'),&#10;            MessageTemplateAction(label='$2$', text='$2$'),&#10;            MessageTemplateAction(label='$3$', text='$3$'),&#10;        ]),&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$4$', text='$4$'),&#10;            MessageTemplateAction(label='$5$', text='$5$'),&#10;        ]),&#10;    ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='Carousel alt text', template=carousel_template)&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;&#10;if user_text in ['$1$']:&#10;    &#10;&#10;if user_text in ['$2$']:&#10;    &#10;&#10;if user_text in ['$3$']:&#10;    &#10;&#10;if user_text in ['$4$']:&#10;    &#10;&#10;if user_text in ['$5$']:&#10;    &#10;    " description="" toReformat="true" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="repb4" value="    buttons_template = ButtonsTemplate(&#10;        title='$title$', text='お選びください', actions=[&#10;            MessageTemplateAction(label='$label1$', text='$label1$'),&#10;            MessageTemplateAction(label='$label2$', text='$label2$'),&#10;            MessageTemplateAction(label='$label3$', text='$label3$'),&#10;            MessageTemplateAction(label='$label4$', text='$label4$'),&#10;        ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='$title$', template=buttons_template&#10;    )&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;    &#10;if user_text in ['$label1$']:&#10;    &#10;&#10;if user_text in ['$label2$']:&#10;    &#10;&#10;if user_text in ['$label3$']:&#10;    &#10;&#10;if user_text in ['$label4$']:&#10;     " description="" toReformat="true" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
