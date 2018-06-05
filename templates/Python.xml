@@ -46,7 +46,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="repc5" value="    carousel_template = CarouselTemplate(columns=[&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$1$', text='$1$'),&#10;            MessageTemplateAction(label='$2$', text='$2$'),&#10;            MessageTemplateAction(label='$3$', text='$3$'),&#10;        ]),&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$4$', text='$4$'),&#10;            MessageTemplateAction(label='$5$', text='$5$'),&#10;        ]),&#10;    ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='Carousel alt text', template=carousel_template)&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;&#10;if user_text in ['$1$']:&#10;    &#10;&#10;if user_text in ['$2$']:&#10;    &#10;&#10;if user_text in ['$3$']:&#10;    &#10;&#10;if user_text in ['$4$']:&#10;    &#10;&#10;if user_text in ['$5$']:&#10;    &#10;    " description="" toReformat="true" toShortenFQNames="true" deactivated="true">
+  <template name="repc9" value="    carousel_template = CarouselTemplate(columns=[&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$1$', text='$1$'),&#10;            MessageTemplateAction(label='$2$', text='$2$'),&#10;            MessageTemplateAction(label='$3$', text='$3$'),&#10;        ]),&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$4$', text='$4$'),&#10;            MessageTemplateAction(label='$5$', text='$5$'),&#10;            MessageTemplateAction(label='$6$', text='$6$'),&#10;        ]),&#10;        CarouselColumn(text='$text$', title='$title$', actions=[&#10;            MessageTemplateAction(label='$7$', text='$7$'),&#10;            MessageTemplateAction(label='$8$', text='$8$'),&#10;            MessageTemplateAction(label='$9$', text='$9$'),&#10;        ]),&#10;    ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='Carousel alt text', template=carousel_template)&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;&#10;if user_text in ['$1$']:&#10;    &#10;&#10;if user_text in ['$2$']:&#10;    &#10;&#10;if user_text in ['$3$']:&#10;    &#10;&#10;if user_text in ['$4$']:&#10;    &#10;if user_text in ['$5$']:&#10;    &#10;if user_text in ['$6$']:&#10;&#10;if user_text in ['$7$']:&#10;&#10;if user_text in ['$8$']:&#10;    &#10;if user_text in ['$9$']:&#10;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
@@ -54,6 +54,10 @@
     <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="6" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="7" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="8" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="9" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
