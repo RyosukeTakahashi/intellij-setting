@@ -1,5 +1,5 @@
 <templateSet group="Python">
-  <template name="rep" value="reply_text = '$REPLY_TEXT$'&#10;line_bot_api.reply_message(&#10;    event.reply_token,&#10;    get_text_send_messages(event, reply_text)&#10;)&#10;" description="line repley" toReformat="false" toShortenFQNames="true">
+  <template name="rep" value="reply_text = '''$REPLY_TEXT$'''&#10;line_bot_api.reply_message(&#10;    event.reply_token,&#10;    get_text_send_messages(event, reply_text)&#10;)&#10;" description="line repley" toReformat="false" toShortenFQNames="true">
     <variable name="REPLY_TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
@@ -38,8 +38,9 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="repb2" value="    buttons_template = ButtonsTemplate(&#10;        title='$title$', text='お選びください', actions=[&#10;            MessageTemplateAction(label='$label1$', text='$label1$'),&#10;            MessageTemplateAction(label='$label2$', text='$label2$')&#10;        ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text='$title$', template=buttons_template&#10;    )&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;    &#10;if user_text in ['$label1$']:&#10;&#10;&#10;if user_text in ['$label2$']:&#10;&#10;&#10;" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="repb2" value="    pretext = $pretext$&#10;    buttons_template = ButtonsTemplate(&#10;        title=f'{pretext}$subtext$', text='お選びください', actions=[&#10;            MessageTemplateAction(label='$label1$', text=f'{pretext}$label1$'),&#10;            MessageTemplateAction(label='$label2$', text=f'{pretext}$label2$')&#10;        ])&#10;    template_message = TemplateSendMessage(&#10;        alt_text=f'{pretext}$subtext$', template=buttons_template&#10;    )&#10;    line_bot_api.reply_message(event.reply_token, template_message)&#10;    &#10;if user_text in ['$pretext$$label1$']:&#10;&#10;&#10;if user_text in ['$pretext$$label2$']:&#10;&#10;&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="pretext" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="subtext" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
