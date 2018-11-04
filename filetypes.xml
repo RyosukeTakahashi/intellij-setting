@@ -5,6 +5,7 @@
       <mapping pattern="prologue" type="PLAIN_TEXT" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="prologue.md" type="PLAIN_TEXT" />
+      <mapping pattern="env_backup" type="PLAIN_TEXT" />
       <mapping pattern="menu_area" type="PLAIN_TEXT" />
       <mapping pattern="yunayoshikokami" type="PLAIN_TEXT" />
       <mapping pattern="question_mynumber" type="PLAIN_TEXT" />
