@@ -312,4 +312,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="rfc" value="export const $componentName$ = ({ $prop$ }) =&gt; (&#10;  &lt;div&gt;&#10;    {$prop$}&#10;  &lt;/div&gt;&#10;)" description="react functional component" toReformat="false" toShortenFQNames="true">
+    <variable name="componentName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="prop" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
