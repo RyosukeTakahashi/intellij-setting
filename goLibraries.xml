@@ -1,0 +1,9 @@
+<application>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$USER_HOME$/code/src/github.com/RyosukeTakahashi" />
+      </list>
+    </option>
+  </component>
+</application>
