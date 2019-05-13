@@ -1,0 +1,7 @@
+<templateSet group="HTML/XML">
+  <template name="css" value="&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;styles.css&quot;&gt;&#10;" description="add link rel href=&quot;styles.css&quot;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
