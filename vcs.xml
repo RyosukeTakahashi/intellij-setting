@@ -3,15 +3,11 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="http://github.com" />
-          <option name="userName" value="RyosukeTakahashi" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/RyosukeTakahashi/InsiderLinebot.git" />
+          <option name="url" value="https://github.com/RyosukeTakahashi/cohort.dena-001.toy-problem.hello-world_go" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\ramun\gitWorks" />
+    <option name="cloneParentDir" value="$USER_HOME$/code/src/github.com/RyosukeTakahashi" />
   </component>
 </application>

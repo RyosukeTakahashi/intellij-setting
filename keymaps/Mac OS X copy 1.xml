@@ -1,0 +1,23 @@
+<keymap version="1" name="Mac OS X copy 1" parent="Mac OS X">
+  <action id="CloseActiveTab" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="Github.Create.Pull.Request">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+  </action>
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="shift meta alt p" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt y" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt 6" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt minus" />
+  </action>
+</keymap>
