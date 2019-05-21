@@ -1,0 +1,13 @@
+<templateSet group="JavaScript">
+  <template name="fcom" value="/**&#10; * $funcDescription$&#10; * @param  {$paramType$} $paramName$ $paramDescription$&#10; * @return {$returnType$} $returnDescription$&#10; */&#10;" description="function comment" toReformat="false" toShortenFQNames="true">
+    <variable name="funcDescription" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="paramType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="paramName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="paramDescription" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="returnType" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="returnDescription" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
