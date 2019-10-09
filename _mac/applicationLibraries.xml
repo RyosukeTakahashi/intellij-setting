@@ -1258,6 +1258,17 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/capistrano-rbenv-2.0.4/lib" />
       </SOURCES>
     </library>
+    <library name="capistrano-rbenv-install (v1.2.0, rbenv: 2.2.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/capistrano-rbenv-install-1.2.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/capistrano-rbenv-install-1.2.0/lib" />
+      </SOURCES>
+    </library>
     <library name="capistrano-sidekiq (v0.5.3, rbenv: 2.2.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
