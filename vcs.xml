@@ -6,6 +6,10 @@
           <option name="url" value="http://github.dena.jp" />
           <option name="userName" value="ryo-a-murakami" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="RyosukeTakahashi" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
