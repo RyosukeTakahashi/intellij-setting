@@ -16,13 +16,6 @@
         <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/ast-2.4.0/test" />
       </excluded>
     </library>
-    <library name="bigdecimal (v1.2.8, rbenv: 2.3.1) [gem]" type="rubylib">
-      <properties>
-        <option name="version" value="4" />
-      </properties>
-      <CLASSES />
-      <SOURCES />
-    </library>
     <library name="bigdecimal (v1.2.8, ruby-2.3.7-p456) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -84,13 +77,6 @@
         <root url="file:///Library/Ruby/Gems/2.3.0/gems/did_you_mean-1.0.0/benchmark" />
         <root url="file:///Library/Ruby/Gems/2.3.0/gems/did_you_mean-1.0.0/evaluation" />
       </excluded>
-    </library>
-    <library name="io-console (v0.4.5, rbenv: 2.3.1) [gem]" type="rubylib">
-      <properties>
-        <option name="version" value="4" />
-      </properties>
-      <CLASSES />
-      <SOURCES />
     </library>
     <library name="io-console (v0.4.5, ruby-2.3.7-p456) [gem]" type="rubylib">
       <properties>
