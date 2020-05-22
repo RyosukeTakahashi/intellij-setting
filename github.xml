@@ -1,0 +1,10 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="66adf476-4665-4a2f-b050-1268448b2da9" name="ryo-a-murakami">
+      <server host="github.dena.jp" />
+    </account>
+    <account id="0358f771-955c-464c-af01-c87dbfb7ba51" name="ryosuketakahashi">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>
