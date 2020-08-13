@@ -2147,6 +2147,22 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/diff-lcs-1.3/autotest" />
       </excluded>
     </library>
+    <library name="diffy (v3.3.0, rbenv: 2.3.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/diffy-3.3.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/diffy-3.3.0/spec" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/diffy-3.3.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/diffy-3.3.0/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/diffy-3.3.0/spec" />
+      </excluded>
+    </library>
     <library name="docile (v1.1.5, rbenv: 2.3.1) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -3924,6 +3940,25 @@
       <excluded>
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/memoist-0.16.0/test" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/memoist-0.16.0/script" />
+      </excluded>
+    </library>
+    <library name="memoist (v0.16.2, rbenv: 2.3.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/memoist-0.16.2/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/memoist-0.16.2/test" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/memoist-0.16.2/script" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/memoist-0.16.2/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/memoist-0.16.2/test" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/memoist-0.16.2/script" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/memoist-0.16.2/test" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/memoist-0.16.2/script" />
       </excluded>
     </library>
     <library name="method_source (v0.8.2, rbenv: 2.3.1) [gem]" type="rubylib">
@@ -6498,6 +6533,28 @@
         <root url="file://$USER_HOME$/.rubies/ruby-2.6.1/lib/ruby/2.6.0/rexml/validation" />
       </excluded>
     </library>
+    <library name="ridgepole (v0.6.6, rbenv: 2.3.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/ridgepole-0.6.6/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/ridgepole-0.6.6/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/ridgepole-0.6.6/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/ridgepole-0.6.6/gemfiles" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/ridgepole-0.6.6/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/ridgepole-0.6.6/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/ridgepole-0.6.6/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/ridgepole-0.6.6/gemfiles" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/ridgepole-0.6.6/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/ridgepole-0.6.6/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/ridgepole-0.6.6/gemfiles" />
+      </excluded>
+    </library>
     <library name="rspec-core (v3.7.0, rbenv: 2.3.1) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -8224,6 +8281,22 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/tzinfo-1.2.5/test" />
       </excluded>
     </library>
+    <library name="tzinfo (v1.2.7, rbenv: 2.3.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/tzinfo-1.2.7/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/tzinfo-1.2.7/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/tzinfo-1.2.7/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/tzinfo-1.2.7/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/tzinfo-1.2.7/test" />
+      </excluded>
+    </library>
     <library name="uglifier (v3.0.0, rbenv: 2.3.1) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -8866,6 +8939,37 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/spec" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/public" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/.github" />
+      </excluded>
+    </library>
+    <library name="yamazaki (v0.4.7@887ad4, rbenv: 2.3.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/src" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/.git" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/public" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/.github" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/src" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/.git" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/public" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/src" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/.git" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/public" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-887ad4c1a445/.github" />
       </excluded>
     </library>
   </component>
