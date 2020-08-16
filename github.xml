@@ -1,7 +1,7 @@
 <application>
   <component name="GithubAccounts">
-    <account id="45ed0c84-c2ef-4fbd-aca5-9abd9e206f09" name="ryo-a-murakami">
-      <server host="github.dena.jp" />
+    <account id="e8057662-d9f1-45d9-a20f-ce3fef730d05" name="RyosukeTakahashi">
+      <server host="github.com" />
     </account>
   </component>
 </application>
