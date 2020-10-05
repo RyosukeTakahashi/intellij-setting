@@ -7701,5 +7701,67 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5a6fb0cbe389/public" />
       </excluded>
     </library>
+    <library name="yamazaki (v0.4.7@5b6f65, rbenv: 2.3.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/src" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/.git" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/public" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/.github" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/src" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/.git" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/public" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/src" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/.git" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/public" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-5b6f65195125/.github" />
+      </excluded>
+    </library>
+    <library name="yamazaki (v0.4.7@7fe5df, rbenv: 2.3.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/src" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/.git" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/public" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/.github" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/src" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/.git" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/public" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/src" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/.git" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/public" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/bundler/gems/yamazaki-7fe5df1aadaf/.github" />
+      </excluded>
+    </library>
   </component>
 </application>
