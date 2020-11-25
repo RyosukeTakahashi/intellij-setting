@@ -365,6 +365,28 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/addressable-2.4.0/tasks" />
       </excluded>
     </library>
+    <library name="addressable (v2.7.0, rbenv: 2.3.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/addressable-2.7.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/addressable-2.7.0/data" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/addressable-2.7.0/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/addressable-2.7.0/tasks" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/addressable-2.7.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/addressable-2.7.0/data" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/addressable-2.7.0/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/addressable-2.7.0/tasks" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/addressable-2.7.0/data" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/addressable-2.7.0/spec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/addressable-2.7.0/tasks" />
+      </excluded>
+    </library>
     <library name="addressable (v2.7.0, rbenv: 2.5.8) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -6076,6 +6098,22 @@
       <excluded>
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/net-ssh-3.1.1/test" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/net-ssh-3.1.1/support" />
+      </excluded>
+    </library>
+    <library name="net-ssh (v6.1.0, rbenv: 2.3.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/net-ssh-6.1.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/net-ssh-6.1.0/support" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/net-ssh-6.1.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/net-ssh-6.1.0/support" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.2/lib/ruby/gems/2.3.0/gems/net-ssh-6.1.0/support" />
       </excluded>
     </library>
     <library name="net-ssh (v6.1.0, rbenv: 2.5.8) [gem]" type="rubylib">
