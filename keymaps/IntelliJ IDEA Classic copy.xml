@@ -1,4 +1,8 @@
 <keymap version="1" name="IntelliJ IDEA Classic copy" parent="Mac OS X">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
+  <action id="ActivateFindToolWindow" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta f4" />
     <keyboard-shortcut first-keystroke="alt 4" />
@@ -11,8 +15,23 @@
   <action id="CopyContentRootPath">
     <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f9" />
+    <keyboard-shortcut first-keystroke="meta f9" />
+  </action>
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
+  <action id="FileChooser.GotoModule" />
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="shift meta b" />
+  </action>
   <action id="Github.Open.In.Browser">
     <keyboard-shortcut first-keystroke="shift meta g" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt tab" />
+    <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl right" />
@@ -25,7 +44,12 @@
   <action id="ReformatWithPrettierAction">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt y" />
   </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="meta f10" />
+  </action>
   <action id="Switcher" />
+  <action id="UpdateRunningApplication" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
