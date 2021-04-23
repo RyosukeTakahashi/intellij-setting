@@ -4,7 +4,7 @@
     <property name="created">2020-07-17T11:58:40</property>
     <property name="ide">Ruby</property>
     <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2021-04-23T15:29:27</property>
+    <property name="modified">2021-04-23T17:01:57</property>
     <property name="originalScheme">Atom One Light</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -168,14 +168,14 @@
       </value>
     </option>
     <option name="BASH.FUNCTION_CALL" baseAttributes="" />
-    <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="" />
     <option name="BASH.INTERNAL_COMMAND">
       <value>
         <option name="FOREGROUND" value="79b4" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="BASH.SHEBANG" baseAttributes="BASH.LINE_COMMENT" />
+    <option name="BASH.SHEBANG" baseAttributes="" />
     <option name="BNF_KEYWORD">
       <value>
         <option name="FOREGROUND" value="1a1f29" />
@@ -248,7 +248,7 @@
         <option name="FOREGROUND" value="c18401" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.FUNCTION_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="COFFEESCRIPT.FUNCTION_NAME" baseAttributes="" />
     <option name="COFFEESCRIPT.THIS">
       <value>
         <option name="FOREGROUND" value="e06c75" />
@@ -717,9 +717,9 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" baseAttributes="DEFAULT_INSTANCE_FIELD" />
-    <option name="GHERKIN_PYSTRING" baseAttributes="DEFAULT_STRING" />
-    <option name="GHERKIN_REGEXP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="GHERKIN_OUTLINE_PARAMETER_SUBSTITUTION" baseAttributes="" />
+    <option name="GHERKIN_PYSTRING" baseAttributes="" />
+    <option name="GHERKIN_REGEXP_PARAMETER" baseAttributes="" />
     <option name="GO_FUNCTION_PARAMETER">
       <value>
         <option name="FOREGROUND" value="986801" />
@@ -2267,7 +2267,7 @@
         <option name="FOREGROUND" value="219598" />
       </value>
     </option>
-    <option name="PUPPET_HEREDOC_TAGS" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="PUPPET_HEREDOC_TAGS" baseAttributes="" />
     <option name="PY.DECORATOR">
       <value>
         <option name="FOREGROUND" value="4078f2" />
@@ -2393,26 +2393,26 @@
         <option name="FOREGROUND" value="e4564a" />
       </value>
     </option>
-    <option name="RUBY_HASH_ASSOC" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="RUBY_HASH_ASSOC" baseAttributes="" />
     <option name="RUBY_HASH_KEY">
       <value>
         <option name="FOREGROUND" value="c18401" />
       </value>
     </option>
-    <option name="RUBY_HEREDOC_CONTENT" baseAttributes="TEXT" />
-    <option name="RUBY_HEREDOC_ID" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="RUBY_HEREDOC_CONTENT" baseAttributes="" />
+    <option name="RUBY_HEREDOC_ID" baseAttributes="" />
     <option name="RUBY_IVAR">
       <value>
         <option name="FOREGROUND" value="e4564a" />
       </value>
     </option>
-    <option name="RUBY_LINE_CONTINUATION" baseAttributes="DEFAULT_COMMA" />
+    <option name="RUBY_LINE_CONTINUATION" baseAttributes="" />
     <option name="RUBY_LOCAL_VAR_ID">
       <value>
         <option name="FOREGROUND" value="e4564a" />
       </value>
     </option>
-    <option name="RUBY_METHOD_NAME" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="RUBY_METHOD_NAME" baseAttributes="" />
     <option name="RUBY_NTH_REF">
       <value>
         <option name="FOREGROUND" value="e4564a" />
@@ -2423,8 +2423,8 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="RUBY_PARAMETER_ID" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="RUBY_REGEXP" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="RUBY_PARAMETER_ID" baseAttributes="" />
+    <option name="RUBY_REGEXP" baseAttributes="" />
     <option name="RUBY_SPECIFIC_CALL">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -2657,9 +2657,9 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="SLIM_FILTER" baseAttributes="DEFAULT_LABEL" />
-    <option name="SLIM_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
-    <option name="SLIM_ID" baseAttributes="CSS.HASH" />
+    <option name="SLIM_FILTER" baseAttributes="" />
+    <option name="SLIM_FILTER_CONTENT" baseAttributes="" />
+    <option name="SLIM_ID" baseAttributes="" />
     <option name="SLIM_INTERPOLATION">
       <value>
         <option name="FOREGROUND" value="4078f2" />
